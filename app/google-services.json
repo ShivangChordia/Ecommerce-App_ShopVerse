@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "244772908792",
+    "project_id": "ecommerceapp-shopverse",
+    "storage_bucket": "ecommerceapp-shopverse.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244772908792:android:dca2e7ce419dabf62a150d",
+        "android_client_info": {
+          "package_name": "com.example.finalprojectecommerceapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzTfwJ3Vl0hrsSZQ-YJQm89aoHD9SwCDA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

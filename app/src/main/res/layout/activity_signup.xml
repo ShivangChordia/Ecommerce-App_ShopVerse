@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_login"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/circular_background"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="16dp"
+            android:textSize="18sp"
+            android:paddingLeft="8dp"/> <!-- Add paddingLeft -->
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/circular_background"
+            android:hint="Email (example@example.com)"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="16dp"
+            android:textSize="18sp"
+            android:paddingLeft="8dp"/> <!-- Add paddingLeft -->
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/circular_background"
+            android:hint="Password (min. 6 characters)"
+            android:inputType="textPassword"
+            android:layout_marginBottom="16dp"
+            android:textSize="18sp"
+            android:paddingLeft="8dp"/> <!-- Add paddingLeft -->
+
+        <EditText
+            android:id="@+id/editTextConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/circular_background"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:layout_marginBottom="16dp"
+            android:textSize="18sp"
+            android:paddingLeft="8dp"/> <!-- Add paddingLeft -->
+
+        <EditText
+            android:id="@+id/editTextPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/circular_background"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:layout_marginBottom="16dp"
+            android:textSize="18sp"
+            android:paddingLeft="8dp"/> <!-- Add paddingLeft -->
+
+        <Button
+            android:id="@+id/btnSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Signup"
+            android:textColor="#D0A933"
+            android:background="@drawable/border_background"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
